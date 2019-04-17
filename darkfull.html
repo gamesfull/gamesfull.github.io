@@ -20,7 +20,7 @@
   <button onclick="topFunction()" id="myBtn" title="Topo"><img src="cimapreto.png"></button>
   <nav>
     <div class="logo"><h1>Full Games</h1></div>
-<div id="hora" style="position:fixed;top:0;right:0;padding:10px;font-size:25px;font-family:'Rubik', sans-serif;color:#9b2222;"></div>
+<div id="hora" style="position:absolute;top:0;right:0;padding:10px;font-size:25px;font-family:'Rubik', sans-serif;color:#9b2222;"></div>
 <script>setInterval( () => {var n = new Date(); hora.innerHTML= `${("00"+n.getHours()).slice(-2)}:${("00" + n.getMinutes()).slice(-2)}:${("00"+n.getSeconds()).slice(-2)}`},500)</script>
     <input type="checkbox" class="nav-toggle" id="nav-toggle" />
   <ul>
