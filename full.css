@@ -239,8 +239,8 @@ body {
   width: 1%;
   height: 30px;
   background-color: #00008c;
-  text-align: center; /* To center it horizontally (if you want) */
-  line-height: 30px; /* To center it vertically */
+  text-align: center;
+  line-height: 30px; 
   position:absolute;
   right:785px;
   color: white; 
@@ -282,9 +282,8 @@ body {
 	padding:11px 25px;
 	text-decoration:none;
 	position:absolute;
-	left:1435px;
 	top:7px;
-	text-align:left;
+	text-align:right;
 }
 .butao:hover {
 	background-color:#0033cc;
@@ -314,9 +313,8 @@ body {
 	padding:11px 25px;
 	text-decoration:none;
 	position:absolute;
-	left:1325px;
 	top:7px;
-	text-align:left;
+	text-align:right;
 }
 .butao2:hover {
 	background-color:#0033cc;
